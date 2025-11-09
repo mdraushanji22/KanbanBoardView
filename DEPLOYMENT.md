@@ -60,3 +60,13 @@ To use a custom domain:
 ## Redeployment
 
 Render automatically redeploys your site whenever you push changes to the connected branch. You can also trigger manual deployments from the Render dashboard.
+
+## Fixing "Not Found" Issues
+
+If you're seeing a "Not Found" error after deployment:
+
+1. We've added a post-build script that creates a 404.html file that redirects to index.html
+2. The render.yaml file includes routing configuration for SPA support
+3. The vite.config.ts file uses relative paths for assets
+
+These changes ensure proper routing for all pages in your Kanban Board application.
