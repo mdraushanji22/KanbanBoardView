@@ -4,9 +4,10 @@ A fully functional, accessible, and performant Kanban Board component built with
 
 ## Live Storybook
 
-[Deploy your Storybook to Chromatic, Vercel, or Netlify and add the URL here]
+[Deploy your Storybook to Netlify and add the URL here: https://kanbanboardsview.netlify.app/]
 
 To view locally, run:
+
 ```bash
 npm run storybook
 ```
@@ -28,6 +29,7 @@ The Kanban Board component is built with a modular architecture:
 - **Types**: TypeScript interfaces for type safety across the application
 
 The component follows React best practices with:
+
 - Memoization for performance optimization
 - Custom drag-and-drop implementation (no pre-built libraries)
 - Full keyboard accessibility
@@ -36,6 +38,7 @@ The component follows React best practices with:
 ## Features
 
 ### Core Features
+
 - ✅ **Drag-and-drop tasks** - Move tasks between columns with smooth animations
 - ✅ **Task creation/editing** - Create and edit tasks with full details
 - ✅ **Task deletion** - Remove tasks with confirmation
@@ -46,6 +49,7 @@ The component follows React best practices with:
 - ✅ **ARIA labels** - Screen reader support
 
 ### Advanced Features
+
 - Priority indicators with color coding
 - Due date tracking with overdue highlighting
 - Assignee avatars with initials
@@ -57,27 +61,35 @@ The component follows React best practices with:
 ## Storybook Stories
 
 ### Default
+
 Basic kanban board with sample data (4 columns).
 
 ### Empty State
+
 Board with no tasks to demonstrate empty state handling.
 
 ### With Many Tasks
+
 Board with 20+ tasks to test performance.
 
 ### Large Dataset
+
 Board with 30+ tasks to demonstrate scalability.
 
 ### Interactive Demo
+
 Fully functional drag-and-drop demonstration.
 
 ### Mobile View
+
 Responsive layout optimized for mobile devices.
 
 ### Accessibility
+
 Keyboard navigation demonstration with ARIA support.
 
 ### Interactive Playground
+
 Playground with controls to modify columns and tasks.
 
 ## Technologies
@@ -102,6 +114,7 @@ The component is optimized for performance:
 - Optimized re-renders
 
 Targets:
+
 - Initial render < 300ms
 - Drag response < 16ms frame time
 - Search/filter < 100ms
@@ -120,20 +133,23 @@ Fully compliant with WCAG 2.1 AA:
 ## Usage
 
 ```tsx
-import { KanbanBoard } from './components/KanbanBoard/KanbanBoard';
-import type { KanbanColumn, KanbanTask } from './components/KanbanBoard/KanbanBoard.types';
+import { KanbanBoard } from "./components/KanbanBoard/KanbanBoard";
+import type {
+  KanbanColumn,
+  KanbanTask,
+} from "./components/KanbanBoard/KanbanBoard.types";
 
 const columns: KanbanColumn[] = [
-  { id: 'todo', title: 'To Do', color: '#6b7280', taskIds: ['task-1'] },
-  { id: 'done', title: 'Done', color: '#10b981', taskIds: [] },
+  { id: "todo", title: "To Do", color: "#6b7280", taskIds: ["task-1"] },
+  { id: "done", title: "Done", color: "#10b981", taskIds: [] },
 ];
 
 const tasks: Record<string, KanbanTask> = {
-  'task-1': {
-    id: 'task-1',
-    title: 'Example Task',
-    status: 'todo',
-    priority: 'high',
+  "task-1": {
+    id: "task-1",
+    title: "Example Task",
+    status: "todo",
+    priority: "high",
     createdAt: new Date(),
   },
 };
@@ -217,5 +233,4 @@ MIT
 
 ## Contact
 
-[Your email]
-
+mdraushanji22@gmail.com
