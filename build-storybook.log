@@ -1,0 +1,53 @@
+
+> kanban-component@0.0.0 build-storybook
+> storybook build --output-dir=C:\Users\mdrau\AppData\Local\Temp\chromatic--21136-DTCrlf8GXZz5
+
+[1mstorybook v10.0.6
+[22m
+info => Cleaning outputDir: [36mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5[39m
+info => Loading presets
+info => Building manager..
+info => Building preview..
+info Using tsconfig paths for react-docgen
+[36mvite v7.2.2 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 155 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/context-C0qIqeS4.png                    [39m[1m[2m    6.12 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/styling-Bk6zjRzU.png                    [39m[1m[2m    7.24 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32miframe.html                                    [39m[1m[2m   18.20 kB[22m[1m[22m[2m │ gzip:   5.10 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/docs---vsFbMi.png                       [39m[1m[2m   27.88 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/share-DGA-UcQf.png                      [39m[1m[2m   40.77 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/accessibility-W_h2acOZ.png              [39m[1m[2m   42.34 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/figma-plugin-CH2hELiO.png               [39m[1m[2m   44.25 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/theming-D6WJLNoW.png                    [39m[1m[2m   44.37 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/testing-cbzR9l9r.png                    [39m[1m[2m   49.31 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[32massets/addon-library-BWUCAmyN.png              [39m[1m[2m  467.37 kB[22m[1m[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[35massets/Header-Ck-SSN7O.css                     [39m[1m[2m    0.51 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[35massets/Button-B2efaGtC.css                     [39m[1m[2m    0.52 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[35massets/Page-CeeQJVdd.css                       [39m[1m[2m    0.91 kB[22m[1m[22m[2m │ gzip:   0.39 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[35massets/iframe-Bv1Y5-Hj.css                     [39m[1m[2m   19.71 kB[22m[1m[22m[2m │ gzip:   4.15 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/formatter-OMEEQ6HG-DTVGHTSH.js          [39m[1m[2m    0.29 kB[22m[1m[22m[2m │ gzip:   0.23 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/index-BlqF1zVk.js                       [39m[1m[2m    0.46 kB[22m[1m[22m[2m │ gzip:   0.30 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/jsx-runtime-BG5-mlcm.js                 [39m[1m[2m    0.76 kB[22m[1m[22m[2m │ gzip:   0.48 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Header.stories-QGCDn7bz.js              [39m[1m[2m    0.79 kB[22m[1m[22m[2m │ gzip:   0.45 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/react-18--iEhEOur.js                    [39m[1m[2m    1.11 kB[22m[1m[22m[2m │ gzip:   0.63 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Button-CL_YoQK7.js                      [39m[1m[2m    1.23 kB[22m[1m[22m[2m │ gzip:   0.60 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/preload-helper-PPVm8Dsz.js              [39m[1m[2m    1.23 kB[22m[1m[22m[2m │ gzip:   0.71 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/DocsRenderer-HT7GNKAR-WD0vXaZx.js       [39m[1m[2m    1.40 kB[22m[1m[22m[2m │ gzip:   0.75 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Button.stories-B6sDrn7E.js              [39m[1m[2m    1.54 kB[22m[1m[22m[2m │ gzip:   0.57 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Header-DR1nOLn1.js                      [39m[1m[2m    1.79 kB[22m[1m[22m[2m │ gzip:   0.78 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Page.stories-CMP5Qbse.js                [39m[1m[2m    3.50 kB[22m[1m[22m[2m │ gzip:   1.54 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Configure-mMjzIkik.js                   [39m[1m[2m   25.65 kB[22m[1m[22m[2m │ gzip:  10.99 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36mvite-inject-mocker-entry.js                    [39m[1m[2m   28.30 kB[22m[1m[22m[2m │ gzip:   9.84 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/Color-64QXVMR3-nLilVIUo.js              [39m[1m[2m   31.65 kB[22m[1m[22m[2m │ gzip:  11.96 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/matchers-ZRZBO4XZ-C2VOt3K-.js           [39m[1m[2m   31.75 kB[22m[1m[22m[2m │ gzip:  10.96 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/KanbanBoard.stories-C2SI3mYb.js         [39m[1m[2m   36.20 kB[22m[1m[22m[2m │ gzip:  10.11 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/syntaxhighlighter-CAVLW7PM-DYV63EGB.js  [39m[1m[2m   80.84 kB[22m[1m[22m[2m │ gzip:  28.52 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/index-BCtzW3z7.js                       [39m[1m[2m  134.17 kB[22m[1m[22m[2m │ gzip:  43.07 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/axe-BphtNXlP.js                         [39m[1m[33m  578.57 kB[39m[22m[2m │ gzip: 159.34 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/WithTooltip-SK46ZJ2J-ClWt5gz_.js        [39m[1m[33m  643.52 kB[39m[22m[2m │ gzip: 211.60 kB[22m
+[2mC:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5/[22m[36massets/iframe-JlE1vSgN.js                      [39m[1m[33m1,156.54 kB[39m[22m[2m │ gzip: 331.30 kB[22m
+[32m✓ built in 9.22s[39m
+info => Output directory: C:/Users/mdrau/AppData/Local/Temp/chromatic--21136-DTCrlf8GXZz5

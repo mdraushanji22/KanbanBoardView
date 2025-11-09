@@ -8,7 +8,8 @@
     "build": "tsc && vite build && node scripts/postbuild.cjs",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_3e8fecd4eb47eaf"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.1.2",
@@ -23,6 +24,7 @@
     "@vitest/browser-playwright": "^4.0.8",
     "@vitest/coverage-v8": "^4.0.8",
     "autoprefixer": "^10.4.21",
+    "chromatic": "^13.3.3",
     "playwright": "^1.56.1",
     "postcss": "^8.5.6",
     "storybook": "^10.0.6",
